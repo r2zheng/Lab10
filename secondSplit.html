@@ -29,16 +29,14 @@
     // And get the client instance you'll use
     var client = factory.client();
         client.on(client.Event.SDK_READY, function() {
-      var treatment = client.getTreatment("Double_Column_Layout");
+      var treatment = client.getTreatment("Blue_Background_Color");
       console.log(treatment);
       if (treatment == "on") {
           // insert code here to show on treatment
-          var main = document.querySelector("main");
-          main.className = "double-column";
+          document.body.className = "blue";
       } else if (treatment == "off") {
           // insert code here to show off treatment
-          var main = document.querySelector("main");
-          main.className = "";
+          document.body.className = "";
       }
     });
   </script>
