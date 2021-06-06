@@ -1,5 +1,9 @@
 # Lab 10
 
+## Author(s):
+1. Rong Zheng
+2. Long Tang
+
 ## Part 1:
 
 ### Link to canny.io
